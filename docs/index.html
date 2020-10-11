@@ -59,6 +59,12 @@
            <li class="nav-item">
               <a class="nav-link" href="#">| Contacts</a>
          </li>
+           <li class="nav-item">
+            <div id="user_box_profile"><a class="nav-link" href="javascript:profile();" >| <div id="results" style="color: white;"></div></a></div>
+            <div id="user_box_login"><a class="nav-link" href="javascript:login();" >| Login</a></div>
+            <div id="user_box_logout"><a class="nav-link" href="javascript:logout();" >| Logout</a></div>
+         </li>
+
            </ul>
         </div>
       </nav>
@@ -531,6 +537,10 @@
             </p>
 
     </div>
+
+    <!--add status control at the end of file-->
+    <script src="javascripts/oidc-client.js"></script>
+    <script src="config.js"></script>  
 
   </body>
 </html>
